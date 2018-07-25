@@ -1,10 +1,14 @@
 # example ingredients array
-ingredients = [
-    ["rye", "sourdough", "baguette"],
-    ["ham", "salami", "turkey"],
-    ["swiss", "munster", "cheddar"],
-    ["mayo", "mustard", "tabasco"]
-]
+ingredients = {
+   :breads => ["rye", "sourdough", "baguette"],
+    :meats =>["ham", "salami", "turkey"],
+    :cheeses =>["swiss", "munster", "cheddar"],
+   :condiments => ["mayo", "mustard", "tabasco"]
+}
+puts ingredients[:breads][0]
+puts ingredients[:meats][1]
+puts ingredients[:cheeses][2]
+puts ingredients[:condiments][1]
 
 def sandwich_request(ingredients, order) 
   # your code here!
