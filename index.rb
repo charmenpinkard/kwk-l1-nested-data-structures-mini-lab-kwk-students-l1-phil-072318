@@ -1,5 +1,4 @@
-# example ingredients array
-ingredients = {
+# examts = {
    :breads => ["rye", "sourdough", "baguette"],
     :meats =>["ham", "salami", "turkey"],
     :cheeses =>["swiss", "munster", "cheddar"],
@@ -8,7 +7,8 @@ ingredients = {
 puts ingredients[:breads][0]
 puts ingredients[:meats][1]
 puts ingredients[:cheeses][2]
-puts ingredients[:condiments][1]
+puts ingredients[:condiments][1]ple ingredients array
+ingredien
 
 def sandwich_request(ingredients, order) 
   # your code here!
